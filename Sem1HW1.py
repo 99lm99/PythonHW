@@ -5,7 +5,10 @@
 
 number = int(input('Введите число от 1 до 7: '))
 
-if(1 or 2 or 3 or 4 or 5):
-    print('NO')
-elif(6 or 7):
+
+if(number == 6 or number == 7):
     print('YES')
+elif(number > 7):
+    print('wrong')
+else:
+    print('NO')
