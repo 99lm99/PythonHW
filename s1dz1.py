@@ -3,18 +3,9 @@
 # Пример:
 # - 6 -> да # - 7 -> да # - 1 -> нет
 
-a = int(input('Введите число от 1 до 7: '))
-if a == 1:
-    print('no')
-elif a == 2:
-    print('no')
-elif a == 3:
-    print('no')
-elif a == 4:
-    print('no')
-elif a == 5:
-    print('no')
-elif a == 6:
-    print('yes')
-elif a == 7:
-    print('yes')
+number = int(input('Введите число от 1 до 7: '))
+
+if(1 or 2 or 3 or 4 or 5):
+    print('NO')
+elif(6 or 7):
+    print('YES')
