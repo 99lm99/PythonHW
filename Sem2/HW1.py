@@ -4,7 +4,8 @@
 
 a = int(input('Введите целое число: '))
 n = 0
-
+lst = {}
 for i in range(1, a + 1):
     n = i * 3 + 1
-    print (f'{i} : {n},', end = ' ')
+    lst[i] = n
+print(lst)
